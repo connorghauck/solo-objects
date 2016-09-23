@@ -14,5 +14,7 @@ var EG = {
 
 function evilGeniuses () {
   var para = EG.abbrev + " are a DotA 2 team created in " + EG.createdIn + " consisting of the players " + EG.mid + ", " + EG.carry + ", " + EG.offlaner + ", " + EG.roamingSupport + ", and " + EG.position5 + ".\nThey have won " + EG.tournamentsWon + " major tournaments, totalling in over " + EG.tournamentWinnings + ", including the " + EG.internationalChamps + " DotA 2 International. Which alone netted them $6,600,000.";
-  return para;
+  console.log(para);
 }
+
+evilGeniuses()
